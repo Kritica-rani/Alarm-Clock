@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hidden-content {
+        display: none;
+      }
+      .show {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="btn">Show more</button>
+      <div class="hidden-content show">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+        recusandae facere, voluptatum omnis excepturi placeat ducimus, nostrum
+        ipsum aliquam architecto ea obcaecati repellendus voluptate praesentium
+        ipsa voluptas id voluptates rem.
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      h1 {
+        margin-top: 50px;
+      }
+      #feedback {
+        color: red;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JAVASCRIPT ALARM CLOCK</h1>
+    <p>Enter the time for the alarm in 24 hr format</p>
+    <div id="feedback"></div>
+    <input type="text" id="alarmTime" placeholder="00:00" />
+    <button onclick="setAlarm()">Set Alarm</button>
+    <button onclick="stopAlarm()">Stop Alarm</button>
+    <audio id="alarmSound" src="./alarm-clock-short-6402.mp3"></audio>
+    <script src="./alarm.js"></script>
+  </body>
+</html>
